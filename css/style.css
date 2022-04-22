@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Tinos', serif;
+    font-size: 16px;
+  }
+
+  h1 {
+      text-align: center;
+      color:#000000;
+  }
+
+#image {
+  background-image: url("https://media0.giphy.com/media/l378necaEOEvZhzt6/giphy.webp?cid=ecf05e47f2ddxz8f7z1zwnqioxif4tf6iaz8mtm6rbrmz6mc&rid=giphy.webp&ct=g");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}  
+
+.container {
+    display: grid;
+    font-size: 1.3rem;
+}
+
+.navbar .container-fluid a {
+    color: rgb(228, 225, 225);
+    font-family: 'Tinos', serif;
+    font-size: 1.27rem;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    /* border-style: solid; */
+    /* border-bottom-color:rgb(228, 225, 225); */
+  }
+
+  a.button {
+    display: block;
+    width: 140px;
+    padding: 2px 2px;
+    border-radius: 5px;
+    border: 1.8px solid rgb(207, 205, 205);
+    margin: auto;
+    background-color: transparent;
+    text-align: center;
+    margin: 5px;  
+  }
+
+  a:hover {
+    background-color: rgb(12, 93, 243);
+    color: white;
+  }
+
+  .task-add-button {
+      text-align: center;
+  }
+
+  .form-label {
+      text-align: left;
+  }
+
+  .card {
+      font-weight: 600;
+      opacity: 0.92;
+      text-align: left;      
+  }
+
+  .card-title{
+    text-align: center;
+}
+
+  .mx-auto {
+      display: block;
+  }
+
+/* footer{
+    background-color: #4159e2;
+    color: rgb(228, 225, 225);
+    text-align: center;
+    border-top-color:rgb(228, 225, 225);
+    border-style: solid;
+    border-bottom-color:#4159e2;
+    border-left-color:#4159e2;
+    border-right-color:#4159e2;
+ } */
+
+.btn-group.btn {
+    cursor: pointer; /* Pointer/hand icon */
+}
+
+a.btn {
+  text-align: center;
+}
+
+/* #alertMessage {
+  font-size: 14.5px;
+  margin-top: 5px;
+ } */
+
+
+.invalid-form-alert {
+  display: block;
+
+} 
+.hide-alert {
+  display: none;
+}
+
+.task-button {
+  display: flex;
+  justify-content: space-between;
+}
